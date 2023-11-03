@@ -1,0 +1,4 @@
+runtime: python39  # Use a versão do Python suportada pelo App Engine.
+entrypoint: gunicorn -b :$PORT main:app  # Ajuste o 'main:app' conforme a 
+sua aplicação.
+
